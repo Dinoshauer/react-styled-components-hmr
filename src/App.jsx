@@ -1,5 +1,6 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import { hot } from 'react-hot-loader';
 import Home from '~/pages/Home';
 
 const GlobalStyle = createGlobalStyle`
@@ -18,4 +19,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default hot(module)(App);

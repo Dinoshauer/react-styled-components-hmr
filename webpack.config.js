@@ -36,7 +36,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['styled-components']
+            plugins: ['styled-components', 'react-hot-loader/babel']
           }
         }
       }
